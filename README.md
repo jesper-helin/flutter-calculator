@@ -2,7 +2,7 @@
 
 Pocket calculator with a simplistic design.
 
-## Features
+## Features[^1]
 * Addition
 * Subtraction
 * Multiplication
@@ -16,7 +16,7 @@ Pocket calculator with a simplistic design.
 * Clone this repository
 * After cloning:
     ### Build an APK
-    From the command line[^1]:   
+    From the command line[^2]:   
     ```
     cd [project]
     flutter build apk --split-per-abi
@@ -28,7 +28,8 @@ Pocket calculator with a simplistic design.
     cd [project]
     flutter install
     ```
-
-[^1]: There might be errors during the building process due to outdated  
+[^1]: Version upgrades broke some features and functions of this app
+  that need to be fixed. My apologies
+[^2]: There might be errors during the building process due to outdated  
   packages etc. If that happens, google the error code. That will most likely  
   lead you on the right track to solving the error.
