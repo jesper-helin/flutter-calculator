@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Calculator'),
+          backgroundColor: Colors.pinkAccent[400],
         ),
         body: SimpleCalculator(),
       ),
@@ -83,7 +84,7 @@ class SimpleCalculatorState extends State<SimpleCalculator> {
         children: [
           Container(
             child: ConstrainedBox(
-              constraints: BoxConstraints.tightFor(width: 90, height: 70),
+              constraints: BoxConstraints.tightFor(width: MediaQuery.of(context).size.width / 4, height: 70),
               child: ElevatedButton(
                 child: Text(string),
                 onPressed: () {
